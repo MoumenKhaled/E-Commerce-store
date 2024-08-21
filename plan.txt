@@ -1,0 +1,39 @@
+Requirements:
+1-Tables
+	*Users-[id,name,email,password,phone_no,whatsapp_no,facebook_url,img_url]
+	*Products[id,name,price,expired_date,category_id,user_id,description,quantity,counter,likes]
+	*Comments[id,product_id,description]
+	*Categories[id,name]
+2-Relationship-One to many
+	*user to products
+	*categories to products
+	*products to comments
+
+3-APIs
+	*User Register	//done	//f
+	*User Login	//done	//f
+	*User Profile:
+		-show	//done
+		-edit
+	*User Logout	//done
+	*create products//done
+	*show all products:
+		-for user_id	//done
+		-for guest	//done
+	*show single product(search,select)	//done
+	*update products	//done
+	*delete product 	//done
+	*views	//done
+	*likes	//done
+__________________________________________________________________________________________________
+@Steps:
+1-project installation   //done
+2-Database create and connect  //done
+3-passport package installation  //done
+4-Migrate migrations   //done
+5-Update User Model   //done
+6-Update AuthorServiceProvider.php  //done
+7-Update auth.php   //done
+8-create models&&migrations //done
+9-create controllers   //done
+10-create routes      //done
